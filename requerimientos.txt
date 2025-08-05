@@ -1,4 +1,0 @@
-el nombre de usuario tiene que existir
-la contraseña tiene que ser correcta
-el nuevo nombre de usuario no tiene que existir
-el nuevo nombre de usuario tiene que tener minimo 3 letras
