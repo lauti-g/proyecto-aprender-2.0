@@ -1,0 +1,33 @@
+{
+  "name": "back",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lauti-g/Proyecto-aprender.git"
+  },
+  "keywords": [
+    "paginacion",
+    "autenticacion"
+  ],
+  "author": "lauti-g",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lauti-g/Proyecto-aprender/issues"
+  },
+  "homepage": "https://github.com/lauti-g/Proyecto-aprender#readme",
+  "description": "",
+  "dependencies": {
+    "dotenv": "^17.2.1",
+    "ejs": "^3.1.10",
+    "express": "^5.1.0",
+    "mysql2": "^3.14.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
