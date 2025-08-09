@@ -1,6 +1,6 @@
 {
-  "name": "back",
-  "version": "1.0.0",
+  "name": "proyecto-aprender-backend",
+  "version": "2.0.0",
   "main": "main.js",
   "type": "module",
   "scripts": {
@@ -8,26 +8,29 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lauti-g/Proyecto-aprender.git"
+    "url": "git+https://github.com/lauti-g/proyecto-aprender-2.0"
   },
   "keywords": [
     "paginacion",
-    "autenticacion"
+    "autenticacion",
+    "ORM"
   ],
   "author": "lauti-g",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/lauti-g/Proyecto-aprender/issues"
+    "url": "https://github.com/lauti-g/proyecto-aprender-2.0"
   },
-  "homepage": "https://github.com/lauti-g/Proyecto-aprender#readme",
-  "description": "",
+  "homepage": "https://github.com/lauti-g/proyecto-aprender-2.0",
+  "description": "un proyecto para practicar habilidades backend",
   "dependencies": {
     "dotenv": "^17.2.1",
     "ejs": "^3.1.10",
     "express": "^5.1.0",
-    "mysql2": "^3.14.3"
+    "mysql2": "^3.14.3",
+    "sequelize": "^6.37.7"
   },
   "devDependencies": {
-    "nodemon": "^3.1.10"
+    "nodemon": "^3.1.10",
+    "zod": "^4.0.15"
   }
 }
