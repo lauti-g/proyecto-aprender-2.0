@@ -2,11 +2,12 @@ import 'dotenv/config'
 import { Sequelize } from "sequelize";
 
 const sequelize = new Sequelize({
-    password: process.env.DB_password,
-    username: process.env.DB_user,
-    database: process.env.DB_database,
+    password: process.env.DB_contrasena,
+    username: process.env.DB_usuario,
+    database: process.env.DB_baseDeDatos,
     host: process.env.DB_host,
     dialect: "mysql"
 });
+
 
 export default sequelize

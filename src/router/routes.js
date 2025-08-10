@@ -3,12 +3,12 @@ import routes from '../controllers/controllers.js'
 
 
 routes.get('/', routes)
-routes.get('/registration', routes)
-routes.post('/registration', routes)
-routes.get('/changeUsername', routes)
-routes.get('/deleteUser', routes)
-routes.delete('/deleteUser', routes)
-routes.put('/changeUsername', routes)
+routes.get('/registrarse', routes)
+routes.post('/registrarse', routes)
+routes.get('/cambiarNombreDeUsuario', routes)
+routes.get('/borrarUsuario', routes)
+routes.delete('/borrarUsuario', routes)
+routes.put('/cambiarNombreDeUsuario', routes)
 
 
 export default routes

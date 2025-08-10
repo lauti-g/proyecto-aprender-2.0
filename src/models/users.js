@@ -1,13 +1,13 @@
 import { DataTypes } from "sequelize";
 import sequelize from "../DB/connectDB.js";
 
-const users = sequelize.define('users',{
+const usuarios = sequelize.define('usuarios',{
     id:{
         type: DataTypes.INTEGER,
         primaryKey: true,
         autoIncrement: true
     },
-    username:{
+    nombreDeUsuario:{
         type: DataTypes.STRING,
         allowNull: false,
         unique:true,
@@ -23,10 +23,10 @@ const users = sequelize.define('users',{
         validate:{
             isEmail:true,
             notEmpty: true,
-            len:[7, 100]
+            len:[4, 100]
         }
     },
-    age:{
+    edad:{
         type: DataTypes.INTEGER,
         allowNull:false,
         validate:{
@@ -34,13 +34,13 @@ const users = sequelize.define('users',{
             notEmpty:true
         }
     },
-    password:{
+    contraseña:{
         type: DataTypes.STRING,
         allowNull: false,
         validate:{
             notEmpty: true,
             len:[5,100]
-        },
+        }
     }
 })
-export default users
+export default usuarios
