@@ -9,7 +9,7 @@ const config = express()
 const dirname = path.dirname(fileURLToPath(import.meta.url))
 
 
-config.use(express.static(path.join(dirname, 'front', 'public')));
+//config.use(express.static(path.join(dirname, 'front', 'public')));
 config.set('views', path.join(dirname, 'views'))
 config.set('view engine', 'ejs')
 config.use(express.json())

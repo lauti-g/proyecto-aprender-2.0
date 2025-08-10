@@ -19,4 +19,14 @@ const registerUserSchema = z.object({
     password: z.string().min(5, "contraseña muy corta(min: 5 characters)")
 })
 
-export default registerUserSchema
+
+
+const changeUsernameSchema = z.object({
+    newUsername: z.string("el nuevo nombre debe ser un texto").min(3, "muy corto el nuevo nombre (min: 3 characters)").max(20, "muy largo el nuevo nombre(max: 20 characters)").refine(
+        (val) => !val.includes(" "),
+        "El nuevo usuario no puede contener espacios"
+    )
+})
+
+
+export {registerUserSchema, changeUsernameSchema}

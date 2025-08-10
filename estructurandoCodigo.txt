@@ -1,0 +1,25 @@
+registro:
+obtener nombre de usuario y mail
+si existe el nombre de usuario y el mail -----> thow
+si no existen ----> parsear todo
+si esta bien el parse ----> hashear contraseña
+volver a obtener contraseña hasheada ----> compararla con confirmPassword
+si esta bien ----> registrar usuario
+si hay error ------> decir en donde esta equivocado
+
+
+borrar usuario:
+obtener nombre de usuario y contraseña del nombre de usuario pedido
+si nombre de usuario no es correcto ----> cuenta inexistente
+si contraseña es incorrecta -----> contraseña incorrecta
+si todo es correcto ----> cuenta borrada
+
+
+
+cambiar nombre de usuario:
+si hay error de parseo -----> decir donde
+obtener username y password
+si username no existe ----> usuario inexistente
+si existe ----> comparar contraseñas
+si contraseña es incorrecta ---->contraseña incorrecta
+si esta todo bien cambiar nombre de usuario 

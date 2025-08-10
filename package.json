@@ -23,14 +23,15 @@
   "homepage": "https://github.com/lauti-g/proyecto-aprender-2.0",
   "description": "un proyecto para practicar habilidades backend",
   "dependencies": {
+    "bcrypt": "^6.0.0",
     "dotenv": "^17.2.1",
     "ejs": "^3.1.10",
     "express": "^5.1.0",
     "mysql2": "^3.14.3",
-    "sequelize": "^6.37.7"
+    "sequelize": "^6.37.7",
+    "zod": "^4.0.15"
   },
   "devDependencies": {
-    "nodemon": "^3.1.10",
-    "zod": "^4.0.15"
+    "nodemon": "^3.1.10"
   }
 }
